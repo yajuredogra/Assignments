@@ -10,7 +10,7 @@ const baseOptions = {
   height: PAGE_WIDTH / 3,
 } as const;
 
-export default function Section1() {
+export default function HomeScreenSection1() {
   const data = [...new Array(6).keys()];
   const ref = React.useRef<ICarouselInstance>(null);
   return (

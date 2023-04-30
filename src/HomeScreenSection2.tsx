@@ -12,7 +12,7 @@ const PAGE_WIDTH = Dimensions.get('window').width;
 const flatListItemWidth = PAGE_WIDTH / 3;
 const colors = ['#DEDEA7', '#A4D0A4', '#F7E1AE', '#E3F2C1'];
 
-export default function Section2(props: any) {
+export default function HomeScreenSection2(props: any) {
   return (
     <View style={{flex: 1, flexDirection: 'column', margin: 12}}>
       <Text
